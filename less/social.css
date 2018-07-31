@@ -1,0 +1,43 @@
+.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 167px;
+}
+.social .social__item {
+  height: 17px;
+  width: 17px;
+}
+.social .social__item--fb {
+  background: url(..//img/icon.png) 0 -19px;
+}
+.social .social__item--fb:hover {
+  background: url(..//img/icon.png) 0 0;
+}
+.social .social__item--tw {
+  background: url(..//img/icon.png) -33px -19px;
+}
+.social .social__item--tw:hover {
+  background: url(..//img/icon.png) -33px 0;
+}
+.social .social__item--in {
+  background: url(..//img/icon.png) -70px -20px;
+}
+.social .social__item--in:hover {
+  background: url(..//img/icon.png) -70px -1px;
+}
+.social .social__item--yt {
+  background: url(..//img/icon.png) 56px -19px;
+}
+.social .social__item--yt:hover {
+  background: url(..//img/icon.png) 56px 0;
+}
+.social .social__item--pt {
+  background: url(..//img/icon.png) 17px 16px;
+}
+.social .social__item--pt:hover {
+  background: url(..//img/icon.png) 17px -1px;
+}

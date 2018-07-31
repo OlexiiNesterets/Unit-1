@@ -1,0 +1,30 @@
+.scroll {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 3px;
+    .box-info(14px);
+    .flex-column;
+
+    .link__scroll {
+        align-items: center;
+        .flex-column;
+
+        .scroll__img {
+            height: 10px;
+            width: 10px;
+            border-right: 2px solid @white;
+            border-bottom: 2px solid @white;
+            -webkit-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+        }
+
+        &:hover {
+            .scroll__img {
+                border-color: @light-gray;
+            }
+        }
+    }
+}

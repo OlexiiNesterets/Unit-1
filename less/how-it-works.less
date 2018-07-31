@@ -1,0 +1,81 @@
+.how-it-works {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background: #333333;
+    .padding-top-bottom(82px, 125px);
+
+    .how-it-works__content {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        flex-grow: 1;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+        -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+        align-items: baseline;
+        position: relative;
+
+        .how-it-works__path {
+            position: absolute;
+            width: 30%;
+            height: 190px;
+            border-radius: 50%;
+            -webkit-transform: scale(1.1, 1.6);
+            -ms-transform: scale(1.1, 1.6);
+            transform: scale(1.1, 1.35);
+            border-top: 2px dotted #ffffff50;
+        }
+    
+        .how-it-works__path--first {
+            left: 18.2%;
+        }
+    
+        .how-it-works__path--second {
+            left: 52.2%;
+        }
+
+        .how-it-works__item {
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            justify-content: space-between;
+            height: 130px;
+            z-index: 2;
+            cursor: default;
+            .flex-column;
+    
+            &:hover {
+                .how-it-works__step {
+                    box-shadow: inset 0 0 30px 1px #2b2b2bfc;
+                }
+            }
+
+            .how-it-works__step {
+                display: flex;
+                height: 96px;
+                width: 96px;
+                border-radius: 50%;
+            }
+        
+            .how-it-works__step--search {
+                background: #333333 url(../img/how-it-works.png) -19px -12px;
+            }
+        
+            .how-it-works__step--select {
+                background: #333333 url(../img/how-it-works.png) -119px -8px;
+            }
+        
+            .how-it-works__step--book {
+                background: #333333 url(../img/how-it-works.png) 123px -14px;
+            }   
+        
+            .how-it-works__title {
+                color: #e8e8e8;
+                text-align: center;
+                .font-aleo(36px);
+            }
+        }     
+    }
+}

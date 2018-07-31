@@ -1,0 +1,94 @@
+@import url("..//css/reset.css");
+@import url(page);
+@import url(header);
+@import url(nav);
+@import url(button);
+@import url(link);
+@import url(scroll);
+@import url(logo);
+@import url(social);
+@import url(wrap);
+@import url(choose);
+@import url(how-it-works);
+@import url(overview);
+@import url(testimonial);
+@import url(footer);
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,700');
+@font-face {
+    font-family: Aleo;
+    src: url("..//fonts/Aleo-Font/Desktop OTF/Aleo-Regular.otf") format("opentype");
+}
+
+
+// variables --Start
+
+@blue: #5474fd;
+@dark-blue: darken(@blue, 4%);
+@white: #fff;
+@light-gray: darken(@white, 15%);
+
+// variables --End
+
+
+
+//mixins --Start
+
+.no-border-outline {
+    border: none;
+    outline: none;
+}
+
+.background-centred(@url) {
+    background: url(@url) 50% no-repeat;
+    background-size: cover;
+}
+
+.padding-top-bottom(@top, @bottom) {
+    padding-top: @top;
+    padding-bottom: @bottom;
+}
+
+.column {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.flex-column {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    .column;
+}
+
+.font-aleo(@font-size) {
+    font: 400 @font-size/26px Aleo;
+}
+
+.box-title {
+    color: #fefefe;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+
+.box-info(@font-size) {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: @font-size;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.box-info-gray(@font-size) {
+    color: #e8e8e8;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: @font-size;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+//mixins --End
