@@ -29,7 +29,7 @@
   -ms-flex-direction: column;
   flex-direction: column;
 }
-.header .header__content {
+.header .header__search {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -45,7 +45,7 @@
   -ms-flex-direction: column;
   flex-direction: column;
 }
-.header .header__content .header__title {
+.header .header__search .header__title {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -61,7 +61,7 @@
   -ms-flex-direction: column;
   flex-direction: column;
 }
-.header .header__content .header__title .header__headind {
+.header .header__search .header__title .header__headind {
   text-align: center;
   text-transform: uppercase;
   font-family: 'Josefin Sans', sans-serif;
@@ -69,21 +69,21 @@
   font-weight: 400;
   line-height: 26px;
 }
-.header .header__content .header__title .header__subheading {
+.header .header__search .header__title .header__subheading {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 22px;
   font-weight: 400;
   line-height: 26px;
   letter-spacing: 4px;
 }
-.header .header__content .header__form {
+.header .header__search .header__form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   height: 60px;
   width: 48.9%;
 }
-.header .header__content .header__form .header__input {
+.header .header__search .header__form .header__input {
   -webkit-box-flex: 3;
   -ms-flex: 3 1 0px;
   flex: 3 1 0;
@@ -92,7 +92,7 @@
   border: none;
   outline: none;
 }
-.header .header__content .header__form .header__input::placeholder {
+.header .header__search .header__form .header__input::placeholder {
   color: #999999;
   text-align: center;
   letter-spacing: 2px;
@@ -100,7 +100,7 @@
   font-weight: 400;
   font-family: 'Josefin Sans', sans-serif;
 }
-.header .header__content .header__form .header__button {
+.header .header__search .header__form .header__button {
   border: 2px solid #fff;
   flex: 1 1 0;
   -webkit-box-flex: 1;
@@ -109,11 +109,11 @@
   align-items: center;
   justify-content: center;
 }
-.header .header__content .header__form .header__button .button__text {
+.header .header__search .header__form .header__button .button__text {
   flex-basis: 95px;
 }
 @media screen and (max-width: 1200px) {
-  .header .header__content .header__form .header__button .search-icon {
+  .header .header__search .header__form .header__button .search-icon {
     display: none;
   }
 }

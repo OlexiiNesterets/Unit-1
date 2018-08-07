@@ -1,4 +1,10 @@
+
 .nav {
+    height: 216px;
+    justify-content: flex-end;
+    .flex-column;
+
+.nav__content {
     background: @blue;
     color: @white;
     height: 80px;
@@ -26,9 +32,10 @@
         -ms-flex-pack: justify;
         justify-content: space-between;
 
-        .nav__item {
-            text-transform: uppercase;
-            .font-aleo(14px);
+            .nav__item {
+                text-transform: uppercase;
+                .font-aleo(14px);
+            }
         }
     }
 }
